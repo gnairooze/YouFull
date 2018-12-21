@@ -21,6 +21,11 @@
 	
 	  "background": {
 	    "scripts": ["youfull.js"]
-	  }
+	  },
   
+    "applications": {
+      "gecko": {
+        "id": "youfull@rashy-team.com"
+      }
+    }
   }

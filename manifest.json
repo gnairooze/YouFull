@@ -1,0 +1,26 @@
+{
+
+    "manifest_version": 2,
+    "name": "YouFull",
+    "version": "1.0",
+  
+    "description": "Plays youtube video in fullscreen",
+  
+    "icons": {
+      "48": "icons/youfull-48.png"
+    },
+  
+    "permissions": [
+			"tabs"
+	  ],
+	
+	  "browser_action": {
+	    "default_icon": "icons/youfull-48.png",
+	    "default_title": "Play Fullscreen"
+	  },
+	
+	  "background": {
+	    "scripts": ["youfull.js"]
+	  }
+  
+  }

@@ -17,3 +17,4 @@ function playFull(){
 }
 
 browser.browserAction.onClicked.addListener(playFull);
+browser.pageAction.onClicked.addListener(playFull);
